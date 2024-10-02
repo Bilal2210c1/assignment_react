@@ -1,0 +1,52 @@
+QUESTION NO 1.
+ANSWER :
+
+       (S - P - A) 
+
+(1)SPA ki full form single page application hai
+(2)SPA sirf 1 baar page load hota phir iske baad woh components reload hotay jo alag hotay baki pages se aur jo sub pages mein same components use hotay woh reload nahi hotay is wajah se load time acha hota
+(3)SPA mei (react router) k through client side routing hoti hai
+(4)SPA component based architecture hai reusable components hotay
+(5)first time reload honay pr time lagta hai lekin navigation k time fast load hota kiun k pages reload nahi hotay sirf components change hotay hain
+(6)single html page honay ki wajah se deployment easy hojati
+
+     (M - P - A)
+(1)MPA ki full form multi page application hai
+(2)MPA mein page load baar baar hota aur har bar woh components bhi load karta jo sub pages mein same hain.
+(3)MPA mein server side routing hoti hai jo k har url ko alag page k liye use karna hota
+(4)MPA server side architecture hai jis mein pages independent hotay
+(5)reload karne pura page reload hota is wajah se time comsume hota as compare to SPA
+(6)multiple html pages ki wajah se depolyment mein issue aa sakta hai jo developer k liye complex hai
+
+
+
+QUESTION NO 2.
+ANSWER :
+ERROR HANDLING : hooks ka use kar k ap error handling bhi deal kar saktay ho
+Form Handling : ap forms ki validation k liye istemal kar saktay hain 
+Custom Hooks : custom hooks create kar saktay hain agr apko lagta hai k agay iski need ho sakti toh custom hook bana kar ap usko wapis use kar sakte isse time ki consume nahi hoga wapis banaya mein
+Use States : component k state ko managa karne k liye use hota
+Use Effect : API calling wagera use karne k liye use hota hai 
+
+
+
+QUESTION NO 3.
+ANSWER :
+Simple Component : simple component kisi properties k bagair sirf static value render karne mein use hota hai yah sirf UI display karnay mein use hota
+Parametric Component : parametric component property use karta hai aur dynamically content render karta hai UI k hisaab se
+
+yeh dono aik dusry se isliye alag hain simple mein ap sirf simple ui render karne k liye use kartay ho , jab k parametric mein ap dynamic content render kartay ho as depend on output for UI
+simple component 1 hi output de sakta jab k parametric component different input k sath sath different output bhi de sakta hai.
+
+
+
+
+QUESTION NO 4.
+ANSWER :
+(1)react mein html ki jagah use hoti hai jsx jesi html hoti wesi hoti lekin additional benefits k sath hai
+(2)ap html k sath sath javascript use kar saktay <script> k tag ki need nahi hai aur na hi new js ki file banani paregi
+(3)dynamic content likh saktay ap {} curly brackets ka use kar k
+(4)handling events use kar saktay jese koi event bana liye ap usko button k click pr use kar saktay hain
+(5)array ko map karke list render kar saktay ho 
+
+
